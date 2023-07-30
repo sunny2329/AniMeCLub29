@@ -14,7 +14,7 @@ const rotateY = plugin(function({ addUtilities}){
 })
 
 module.exports = {
-  content: ["./Public/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
