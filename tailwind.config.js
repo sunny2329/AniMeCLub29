@@ -25,6 +25,7 @@ module.exports = {
         "color-gray": "#333",
         "color-white": "#fff",
         "color-blob": "#A427DF",
+        "color-darkm": "#191919",
       }
     },
     container:{

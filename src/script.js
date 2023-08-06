@@ -1,12 +1,12 @@
 const navbar = document.querySelector('header');
 
         window.onscroll = () => {
-            if(window.scrollY > 100) {
-                navbar.classList.add('bg-[#edeae0e6]');
+            if(window.scrollY > 800) {
+                navbar.classList.add('bg-[purple]');
                 navbar.classList.add('border-b');
                 navbar.classList.add('border-orange-400');
             } else {
-                navbar.classList.remove('bg-[#edeae0e6]');
+                navbar.classList.remove('bg-[purple]');
                 navbar.classList.remove('border-b');
                 navbar.classList.add('border-orange-400');
             }
@@ -70,3 +70,6 @@ const navbar = document.querySelector('header');
             card_3_back.classList.toggle('rotate-y-180');
             
         })
+
+
+        
