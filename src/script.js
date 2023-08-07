@@ -30,7 +30,7 @@ const navbar = document.querySelector('header');
             })
         })
 
-        // testimonial
+        // quotes
         const userTexts = document.getElementsByClassName('user-text');
         const userPics = document.getElementsByClassName('user-pic');
 
