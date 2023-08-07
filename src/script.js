@@ -16,7 +16,7 @@ const navbar = document.querySelector('header');
         const hamburger = document.querySelector('#hamburger');
         const menu = document.querySelector('#menu');
         const hLink = document.querySelectorAll('#hLink');
-        const faSolid = document.querySelector(".fa-solid");
+        const faSolid = document.querySelector(".fa-bars");
 
         hamburger.addEventListener("click", () => {
             menu.classList.toggle('hidden');
@@ -72,4 +72,105 @@ const navbar = document.querySelector('header');
         })
 
 
+        //dark mode
+
+        const dark = document.querySelectorAll('.fa-circle-half-stroke');
+
         
+
+        dark.forEach(p=>{
+            p.addEventListener('click',function(){
+
+                
+
+                const title = document.querySelectorAll('.titlelm');
+        
+                const btn = document.querySelectorAll('.btnlm');
+        
+                const p  = document.querySelectorAll('.plm')
+        
+                const bg = document.querySelectorAll('.bglight');
+        
+                const div = document.querySelectorAll('.divlm');
+        
+                const lism = document.querySelectorAll('.lismlm');
+        
+                const title1 = document.querySelector('.title1');
+        
+                const lilg = document.querySelectorAll('.lilglm');
+        
+                const title2 = document.querySelector('.title2');
+                const fealm = document.querySelectorAll('.fealm');
+                const ho = document.querySelectorAll('.hoverlm');
+                const qu = document.querySelectorAll('.qulm');
+                const prilm = document.querySelectorAll('.prilm');
+                const dolm = document.querySelectorAll('.dolm');
+                const folm = document.querySelectorAll('.folm');
+                const prdm = document.querySelectorAll('.only');
+
+                title.forEach(ti =>{
+                    ti.classList.toggle('titledm');
+                })
+    
+                btn.forEach(btn =>{
+                    btn.classList.toggle('btndm');
+                })
+    
+    
+                bg.forEach(bg =>{
+                    bg.classList.toggle('bgdark');
+                })
+    
+    
+                p.forEach(p =>{
+                    p.classList.toggle('pdm');
+                })
+    
+                div.forEach(p =>{
+                    p.classList.toggle('divdm');
+                })
+    
+                lism.forEach(p =>{
+                    p.classList.toggle('lismdm');
+                })
+    
+                lilg.forEach(p =>{
+                    p.classList.toggle('lilgdm');
+                })
+    
+                title1.classList.toggle('colordark2');
+                title2.classList.toggle('colordark');
+    
+    
+                fealm.forEach(p =>{
+                    p.classList.toggle('feadm');
+                })
+    
+                ho.forEach(p =>{
+                    p.classList.toggle('hoverdm');
+                })
+    
+    
+                qu.forEach(p =>{
+                    p.classList.toggle('qudm');
+                })
+    
+    
+                prilm.forEach(p =>{
+                    p.classList.toggle('pridm');
+                })
+    
+                dolm.forEach(p =>{
+                    p.classList.toggle('dodm');
+                })
+    
+                folm.forEach(p =>{
+                    p.classList.toggle('fodm');
+                })
+    
+    
+                prdm.forEach(p =>{
+                    p.classList.toggle('prdm');
+                })
+            })
+        })

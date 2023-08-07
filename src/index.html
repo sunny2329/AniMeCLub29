@@ -12,9 +12,9 @@
 <body class=" bglight bgdark tracking-wider">
     <header class="sticky top-0 z-50">
         <nav class="container flex justify-between items-center">
-            <div class="py-5 text-purple-500 colordark2 font-bold text-5xl">
+            <div class="py-5 text-purple-500 title1 colordark2 font-bold text-5xl">
                 <a href="#home" class="hover:text-[2.9rem]">
-                    <span class="text-red-400 colordark underline">AniMe</span><br>CLub29.
+                    <span class="text-red-400  title2 colordark underline">AniMe</span><br>CLub29.
                 </a>
                
             </div>
@@ -28,10 +28,18 @@
                     <li><a href="#contact" class="lilglm lilgdm">Contact</a></li>
 
                     <li><button class="btnlm btndm">Join us</button></li>
+
+                    <li class="mt-10">
+                        <i class="fa-solid fa-circle-half-stroke cursor-pointer darkmo plm pdm"></i>
+                    </li>
                 </ul>
             </div>
 
             <!-- Mobile screen  -->
+
+            <div class="lg:hidden">
+                <i class="fa-solid fa-circle-half-stroke cursor-pointer plm pdm mt-10"></i>
+            </div>
             <div id="hamburger" class="lg:hidden cursor-pointer z-50">
                 <i class="fa-solid fa-bars text-cyan-400 text-4xl hover:text-red-400"></i>
             </div>
@@ -45,8 +53,7 @@
                     <li><a id="hLink" href="#blog" class="lismlm lismdm">Blog</a></li>
                     <li><a id="hLink" href="#contact" class="lismlm lismdm">Contact</a></li>
 
-                    <li><button class="bg-[#f4415f] px-9 py-3 rounded-md capitalize font-bold hover:text-orange-400 hover:bg-[#edeae0] hover:border-solid
-                        hover:border-2 hover:border-black ease-in duration-200">join us</button></li>
+                    <li><button class="btnlm btndm">join us</button></li>
                 </ul>
             </div>
         </nav>
@@ -61,7 +68,7 @@
             <div class="container py-20">
                 <div class="flex flex-col items-center z-20 md:flex-row">
                     <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
-                        <h1 class="title titledm capitalize mb-4">Awesome place to find your favorite anime!</h1>
+                        <h1 class="titlelm titledm capitalize mb-4">Awesome place to find your favorite anime!</h1>
                         <p class="plm pdm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus rem doloribus, asperiores eligendi pariatur at excepturi? Maiores, culpa voluptatibus!<p>
                         <button class="btnlm btndm">Download app</button>
                     </div>
@@ -211,12 +218,12 @@
 
                     <!-- Rounded switch  -->
                     <div class="mt-5 flex items-center justify-center gap-4">
-                        <p class="prdm">Anually</p>
+                        <p class="prdm only">Anually</p>
                         <label class="cursor-pointer relative inline-block w-20 h-8 rounded-full">
                             <input type="checkbox" id="toggleBtn" class="peer opacity-0 w-0 h-0">
                             <span class="absolute top-0 left-0 right-0 bottom-0 bg-color-primary-light border border-solid border-color-gray rounded-full duration-300 before:content-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full before:bg-color-white before:duration-300 peer-checked:before:translate-x-12 peer-checked:bg-color-secondary"></span>
                         </label>
-                        <p class="prdm">Monthly</p>
+                        <p class="prdm only">Monthly</p>
                     </div>
                 </div>
 
